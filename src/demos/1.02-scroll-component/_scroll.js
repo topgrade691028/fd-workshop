@@ -1,10 +1,12 @@
 /*
- *** Alternative 1: Render function ***
+ *** Alternative 1: Render function (Render-less component) ***
  *
  * Use render function to avoid extra <div></div>
+ *
  */
 
 export default {
+  // Returns an VNode instance
   render() {
     return this.$slots.default && this.$slots.default[0];
   },
