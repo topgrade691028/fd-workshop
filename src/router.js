@@ -5,6 +5,7 @@ import Demo_1_01_Scroll from "./demos/1.01-scroll/Inheritance";
 import Demo_1_02_ScrollComponent from "./demos/1.02-scroll-component";
 import Demo_1_03_Adaptive_Multiselect from "./demos/1.03-adaptive-multiselect";
 import Demo_1_04_Modal from "./demos/1.04-modal";
+import Demo_1_05_Search from "./demos/1.05-search";
 
 Vue.use(Router);
 
@@ -31,6 +32,10 @@ export default new Router({
     {
       path: "/1.04-modal",
       component: Demo_1_04_Modal
+    },
+    {
+      path: "/1.05-search",
+      component: Demo_1_05_Search
     }
   ]
 });

@@ -12,5 +12,8 @@
     <p>
       <router-link to="/1.04-modal">1.04 - Modal (Slots)</router-link>
     </p>
+    <p>
+      <router-link to="/1.05-search">1.05 - Search (Scoped Slots)</router-link>
+    </p>
   </div>
 </template>
