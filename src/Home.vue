@@ -9,5 +9,8 @@
     <p>
       <router-link to="/1.03-adaptive-multiselect">1.03 - Adaptive Vue Multiselect</router-link>
     </p>
+    <p>
+      <router-link to="/1.04-modal">1.04 - Modal (Slots)</router-link>
+    </p>
   </div>
 </template>
