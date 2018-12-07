@@ -15,5 +15,11 @@
     <p>
       <router-link to="/1.05-search">1.05 - Search (Scoped Slots)</router-link>
     </p>
+    <p>
+      <router-link to="/2.02-async-components">2.02 - Async Components</router-link>
+    </p>
+    <p>
+      <router-link to="/2.03-observer-component">2.03 - Observer Component</router-link>
+    </p>
   </div>
 </template>

@@ -1,4 +1,5 @@
 import "vue-multiselect/dist/vue-multiselect.min.css";
+import "leaflet/dist/leaflet.css";
 import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";

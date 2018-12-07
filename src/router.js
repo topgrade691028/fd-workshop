@@ -6,6 +6,8 @@ import Demo_1_02_ScrollComponent from "./demos/1.02-scroll-component";
 import Demo_1_03_Adaptive_Multiselect from "./demos/1.03-adaptive-multiselect";
 import Demo_1_04_Modal from "./demos/1.04-modal";
 import Demo_1_05_Search from "./demos/1.05-search";
+import Demo_2_02_Async_Components from "./demos/2.02-async-components";
+import Demo_2_03_Observer_Component from "./demos/2.03-observer-component";
 
 Vue.use(Router);
 
@@ -36,6 +38,14 @@ export default new Router({
     {
       path: "/1.05-search",
       component: Demo_1_05_Search
+    },
+    {
+      path: "/2.02-async-components",
+      component: Demo_2_02_Async_Components
+    },
+    {
+      path: "/2.03-observer-component",
+      component: Demo_2_03_Observer_Component
     }
   ]
 });
