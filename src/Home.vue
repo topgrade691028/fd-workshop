@@ -21,5 +21,8 @@
     <p>
       <router-link to="/2.03-observer-component">2.03 - Observer Component</router-link>
     </p>
+    <p>
+      <router-link to="/2.04-lazy-image">2.04 - Lazy Images</router-link>
+    </p>
   </div>
 </template>

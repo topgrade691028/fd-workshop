@@ -8,6 +8,7 @@ import Demo_1_04_Modal from "./demos/1.04-modal";
 import Demo_1_05_Search from "./demos/1.05-search";
 import Demo_2_02_Async_Components from "./demos/2.02-async-components";
 import Demo_2_03_Observer_Component from "./demos/2.03-observer-component";
+import Demo_2_04_Lazy_Image from "./demos/2.04-lazy-image";
 
 Vue.use(Router);
 
@@ -46,6 +47,10 @@ export default new Router({
     {
       path: "/2.03-observer-component",
       component: Demo_2_03_Observer_Component
+    },
+    {
+      path: "/2.04-lazy-image",
+      component: Demo_2_04_Lazy_Image
     }
   ]
 });

@@ -4,6 +4,7 @@
       <h1>Scroll down..</h1>
     </div>
     <Observer>
+      <!-- Caveat: a v-if condition is needed to make lazy-loading happen -->
       <MapExample v-if="intersected" slot-scope="{ intersected }"/>
     </Observer>
   </div>
